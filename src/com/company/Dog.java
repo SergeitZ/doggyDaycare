@@ -18,4 +18,8 @@ public class Dog extends Animal {
         return "Urf";
     }
 
+    public String toString() {
+        return String.format("{legs: %s, size: %s, name: %s, weight: %s, isFixed: %s, breed: %s, snoutLength: %s, age: %s}", legs, size, name, weight, isFixed, breed, snoutLength, age);
+    }
+
 }

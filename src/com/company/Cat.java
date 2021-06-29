@@ -15,4 +15,8 @@ public class Cat extends Animal {
         return "Wow";
     }
 
+    public String toString() {
+        return String.format("{legs: %s, size: %s, name: %s, weight: %s, isFixed: %s, pattern: %s, wasStray: %s}", legs, size, name, weight, isFixed, pattern, wasStray);
+    }
+
 }
