@@ -2,9 +2,9 @@ package com.company;
 
 public class Dog extends Animal {
 
-    String breed;
-    double snoutLength;
-    int age;
+    public String breed;
+    public double snoutLength;
+    public int age;
 
     public Dog (int legs, String size, String name, double weight, boolean isFixed, String breed, double snoutLength, int age) {
         super (legs, size, name, weight, isFixed);
@@ -13,6 +13,7 @@ public class Dog extends Animal {
         this.age = age;
     }
 
+    @Override
     public String speak () {
 
         return "Urf";

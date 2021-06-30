@@ -11,6 +11,7 @@ public class Cat extends Animal {
         this.wasStray = wasStray;
     }
 
+    @Override
     public String speak() {
         return "Wow";
     }
